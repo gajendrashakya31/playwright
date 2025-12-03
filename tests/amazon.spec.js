@@ -1,0 +1,9 @@
+const { test, expect } = require('@playwright/test');
+
+test('open amazon.com and check title', async ({ page }) => {
+  await page.goto('https://www.amazon.com');
+  await expect(page).toHaveTitle(/Amazon/);
+  await page.getByPlaceholder('Search Amazon').fill('laptop');
+  await page.getByPlaceholder('Search Amazon').press('Enter');
+  await expect(page).toHaveTitle(/laptop/);
+});
