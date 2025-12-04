@@ -6,4 +6,5 @@ test('open amazon.com and check title', async ({ page }) => {
   await page.getByPlaceholder('Search Amazon').fill('mobile');
   await page.getByPlaceholder('Search Amazon').press('Enter');
   await expect(page).toHaveTitle(/mobile/);
+  await page.close();
 });
