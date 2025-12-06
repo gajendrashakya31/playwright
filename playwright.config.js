@@ -15,6 +15,10 @@ module.exports = defineConfig({
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
   },
+  reporter: [
+    ['line'], // Keeps the console output clean
+    ['allure-playwright', { outputFolder: 'allure-results' }] // Required for Allure
+  ],
   projects: [
     {
       name: 'chromium',
