@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","15273","seed","firefox","Sat Dec 06 09:54:41 IST 2025","passed","Sat Dec 06 09:54:56 IST 2025","Test group","seed.spec.ts","",""
+"","23976","open amazon.com and check title","webkit","Sat Dec 06 09:54:51 IST 2025","passed","Sat Dec 06 09:55:15 IST 2025","","amazon.spec.js","",""
+"","675","seed","chromium","Sat Dec 06 09:54:41 IST 2025","passed","Sat Dec 06 09:54:41 IST 2025","Test group","seed.spec.ts","",""
+"","11626","open amazon.com and check title","chromium","Sat Dec 06 09:54:41 IST 2025","passed","Sat Dec 06 09:54:52 IST 2025","","amazon.spec.js","",""
+"","30881","open amazon.com and check title","firefox","Sat Dec 06 09:54:41 IST 2025","broken","Sat Dec 06 09:55:11 IST 2025","","amazon.spec.js","",""
+"","1422","seed","webkit","Sat Dec 06 09:55:12 IST 2025","passed","Sat Dec 06 09:55:13 IST 2025","Test group","seed.spec.ts","",""
